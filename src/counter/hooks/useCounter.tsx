@@ -7,7 +7,7 @@ export const useCounter = (initialValue: number = 10) => {
     setCounter(counter + 1);
   };
 
-  const handleSubstract = () => {
+  const handleSubtract = () => {
     setCounter((prevState) => prevState - 1);
   };
 
@@ -21,7 +21,7 @@ export const useCounter = (initialValue: number = 10) => {
 
     // methods
     handleAdd,
-    handleSubstract,
+    handleSubtract,
     handleReset,
   };
 };
