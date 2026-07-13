@@ -11,7 +11,7 @@ export const GifsApp = () => {
     <>
       {/* Header */}
       <CustomHeader
-        title="Buscador de Gifs"
+        title="Buscador de Gifs Erik Climas Samano"
         description="Descubre y comparte el Gif perfecto"
       />
 
